@@ -1,11 +1,7 @@
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
-  return (
-    <main>
-      <h1>CollabSpace</h1>
-      <p>Work together. Stay in sync.</p>
-    </main>
-  );
+  return <AppRoutes />;
 }
 
 export default App;
