@@ -5,7 +5,6 @@ import {
 
 import {
   Outlet,
-  useSearchParams,
 } from "react-router";
 
 import AppHeader from "./AppHeader";
@@ -24,12 +23,6 @@ function AppLayout() {
   function closeMobileSidebar() {
     setMobileSidebarOpen(false);
   }
-
-  const [
-    searchParams,
-  ] = useSearchParams();
-
-  console.log(searchParams)
 
   useEffect(() => {
     if (!mobileSidebarOpen) {
